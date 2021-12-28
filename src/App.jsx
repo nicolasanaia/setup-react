@@ -1,5 +1,6 @@
-import './styles/global.scss'
+import { NomadeSubscribe } from './components/NomadeSubscribe';
+import './styles/global.scss';
 
 export function App() {
-    return <h1>This is my app</h1>
+    return <NomadeSubscribe />
 }
